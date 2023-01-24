@@ -6,6 +6,7 @@
 }
 body {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 h1,
@@ -64,7 +65,9 @@ p {
   padding: 20px 15px;
   box-shadow: var(--box-shadow);
   text-decoration: none;
+  text-align: left;
 }
+
 .primary-link:hover {
   color: #0a58ca;
 }
@@ -94,4 +97,27 @@ p {
 .about-paragraph {
   margin: 30px 10px;
   text-align: center;
+}
+.empty-box {
+  font-size: 200px;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  .primary-link {
+    text-align: center;
+    display: block;
+  }
+  p {
+    text-align: center;
+  }
+  .project-titles {
+    text-align: center;
+  }
 }
