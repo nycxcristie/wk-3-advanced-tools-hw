@@ -6,7 +6,7 @@
 }
 body {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -113,6 +113,7 @@ p {
   .primary-link {
     text-align: center;
     display: block;
+    margin: 0 20px;
   }
   p {
     text-align: center;
